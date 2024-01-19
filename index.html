@@ -163,70 +163,23 @@
               </div>
             </div>
           </nav>
-        <!-- </div> -->
-      <div class="slideshow-container">
-      
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="folder/d-img9.jpg" style="width:100%">
-        <div class="text">EliteCare</div>
+          <!-- Slidder part  -->
+  <div class="slide" style="padding: 10px;">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="folder/d-img3.jpg" class="d-block w-100" alt="NA">
+          </div>
+          <div class="carousel-item">
+            <img src="folder/d-img1.jpg" class="d-block w-100" alt="NA">
+          </div>
+          <div class="carousel-item">
+            <img src="folder/d-img9.jpg" class="d-block w-100" alt="NA">
+          </div>
+        </div>
       </div>
-      
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="folder/d-img3.jpg" style="width:100%">
-        <div class="text">EliteCare</div>
-      </div>
-      
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="folder/d-img1.jpg" style="width:100%">
-        <div class="text">EliteCare</div>
-      </div>
-      
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-      
-      </div>
-      <br>
-      
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div>
-      
-      <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
-      
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-      
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-      
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-      }
-      </script>
+    </div>
 
- 
-   
 <div class="container mt-1">
   <hr>
   <h3>Our Service</h3>
@@ -236,6 +189,8 @@
     <div class="container mt-2">
       <div class="row">
         <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+
+<!-- first part of the image  -->
 <br>
           <img class="folder" src="folder/img1.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
         <div class="col-sm-15">
@@ -244,6 +199,8 @@
           <p>Specialized lower back pain relief treatments and rehabilitation services.</p>
         </div>
       </div>
+
+      <!-- Second part of the image  -->
 <hr>
       <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
 <br>
@@ -254,7 +211,9 @@
           <p>Neurological rehab can often improve function, reduce symptoms, and improve the well-being of the patient.</p>
         </div>
       </div>
-<hr>
+      <!-- Third part of the image  -->
+
+      <hr>
       <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
 <br>
       <img class="folder" src="folder/img-3.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
@@ -264,18 +223,224 @@
         <p>Pediatric rehabilitation includes physical, occupational, and speech therapy and utilization of assistive devices and/or medications to reduce elevated tone and facilitate postural alignment.</p>
       </div>
     </div>
+
+    <!-- Fourth part of the image  -->
+
 <hr>
 
+<div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+  <br>
+        <img class="folder" src="folder/mg-4.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+        <div class="col-sm-15">
+          <br>
+          <h3>Electro & exercise </h3>
+          <p>Electrotherapy also helps people with chronic heart failure to improve their exercise capacity.</p>
+        </div>
+      </div>
+  <hr>
+
+    <!-- Fifth part of the image  -->
+
+  <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+    <br>
+          <img class="folder" src="folder/img-5.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+          <div class="col-sm-15">
+            <br>
+            <h3>Acculife magnet cell therapy.</h3>
+            <p>Aculife Magnetic Wave Stimulator is for magnetic, stimuli, meridians, paralysis, polio, immunity, digestion, constipation, oxygen.</p>
+          </div>
+        </div>
+    <hr>
+
+    <!-- Six part of the image  -->
+
+      
+  <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+    <br>
+          <img class="folder" src="folder/img-7.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+          <div class="col-sm-15">
+            <br>
+            <h3>Occupational Therapy            </h3>
+            <p>Occupational therapy (OT) is a branch of health care that helps people of all ages who have physical, sensory, or cognitive problems.</p>
+          </div>
+        </div>
+    <hr>
+
+    <!-- seventh part of the image -->
+    <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+      <br>
+            <img class="folder" src="folder/img-6.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+            <div class="col-sm-15">
+              <br>
+              <h3>Chiropractic</h3>
+              <p>A chiropractor helps manage back and neck pain through the use of spinal adjustments to maintain good alignment.</p>
+            </div>
+          </div>
+      <hr>
+<!-- eight part of the image   -->
+
+<div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+  <br>
+        <img class="folder" src="folder/img-8.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+        <div class="col-sm-15">
+          <br>
+          <h3>Pre & Post gynae Rehab          </h3>
+          <p>Gynecological Physiotherapy is a field of physiotherapy that is focused on taking care of the female genital area and other nearby areas that are affected in special moments for women such as pregnancy and childbirth.</p>
+        </div>
+      </div>
+  <hr>
+
+  <!-- nine part of the image -->
+  <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+    <br>
+          <img class="folder" src="folder/img-9.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+          <div class="col-sm-15">
+            <br>
+            <h3>Sports injuries management            </h3>
+            <p>The goals of speech therapy include improving pronunciation, strengthening the muscles used in speech, and learning to speak correctly.</p>
+          </div>
+        </div>
+    <hr>
+<!-- ten part of the image -->
+
+<div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+  <br>
+        <img class="folder" src="folder/img-10.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+        <div class="col-sm-15">
+          <br>
+          <h3>Matrix Treatment          </h3>
+          <p>Matrix Rhyhtm Therapy (MRT) (MaRhyThe) is a latest advancement in physiotherapy which use basic concept of vibration and massage.</p>
+        </div>
+      </div>
+  <hr>
+<!-- eleven part of the image -->
+<div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+  <br>
+        <img class="folder" src="folder/img-11.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+        <div class="col-sm-15">
+          <br>
+          <h3>Obesity          </h3>
+          <p>The right exercise is very important because it helps burn calories, get rid of fat, preserve muscle tissue, and protect your joints.</p>
+        </div>
+      </div>
+  <hr>
+
+  <!-- twelve part of the image -->
+
+  <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+    <br>
+          <img class="folder" src="folder/img-12.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+          <div class="col-sm-15">
+            <br>
+            <h3>Manual therapy            </h3>
+            <p>Manual therapy is a clinical approach based on skilled “hands on” therapy to decrease pain and improve the mobility of joints, soft tissues and nerves.</p>
+          </div>
+        </div>
+    <hr>
+
+    <!-- thirteen part of the image -->
+    <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+      <br>
+            <img class="folder" src="folder/img-13.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+            <div class="col-sm-15">
+              <br>
+              <h3>Audiometry              </h3>
+              <p>An audiometry exam tests your ability to hear sounds.</p>
+            </div>
+          </div>
+      <hr>
+<!-- fourteen part of the image   -->
+<div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+  <br>
+        <img class="folder" src="folder/img-14.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+        <div class="col-sm-15">
+          <br>
+          <h3>Robot Treatment </h3>
+          <p>Robot-assisted therapy can be used by physical therapists in conjunction with traditional physiotherapy approaches.</p>
+        </div>
+      </div>
+  <hr>
+<!-- fifteen part of the image -->
+<div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+  <br>
+        <img class="folder" src="folder/img-15.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+        <div class="col-sm-15">
+          <br>
+          <h3>BCM Thrapy          </h3>
+          <p>This massage therapy for circulation is a proactive step towards achieving optimal wellness.</p>
+        </div>
+      </div>
+  <hr>
+
+<!-- sixteen part of the image -->
+<div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+  <br>
+        <img class="folder" src="folder/img-16.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+        <div class="col-sm-15">
+          <br>
+          <h3>Dry needling           </h3>
+          <p>When dry needling is applied to your muscles and tissues, it can decrease tightness, increase blood flow and reduce local and referred pain.</p>
+        </div>
+      </div>
+  <hr>
+
+  <!-- seventeen part of the image -->
+  <div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+    <br>
+          <img class="folder" src="folder/img-17.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+          <div class="col-sm-15">
+            <br>
+            <h3>Cupping therapy            </h3>
+            <p>Cupping therapy is an ancient healing method that may ease back pain, neck pain, headaches and other issues.</p>
+          </div>
+        </div>
+    <hr>
+<!-- eighteen part of the image   -->
+<div class="image" style="background-color: rgb(186, 250, 156); border-radius: 5px; text-align: center;"> 
+  <br>
+        <img class="folder" src="folder/img-18.jpg" alt="NA" style="width: 50%; border-radius: 10px;">
+        <div class="col-sm-15">
+          <br>
+          <h3>Spinal Cord Injury          </h3>
+          <p>An injury higher on the spinal cord can cause paralysis in most of the body and affect all limbs (tetraplegia or quadriplegia).</p>
+        </div>
+      </div>
+  <hr>
+  
     </div>
     </div>
 
-<!-- <br><br><br><br><br> -->
+<!-- team member of the Hospital -->
+
+<div class="container" style="text-align: center;">
+
+  <div class="card">
+    <p>Our Team Member</p>
+    <div class="col-sm-15">
+    <img src="folder/img-dr.jpg" class="card-img-top" alt="NA" style="width: 275px; border-radius: 6px; text-align: center;">
+  
+    <div class="card-body">
+      <h5 class="card-title">Dr. R.A Singh (PT)</h5>
+      <p class="card-text">Greetings! I am  <b>Dr. Raushan Kumar Singh</b>  , a dedicated and compassionate healthcare professional
+         committed to making a positive impact on the well-being of my patients. With a background in 
+         Physiotherapy, I have accumulated 5 years of experience in the field of medicine.
+
+        I completed my medical education at Rabindranath Tagore University, Bhopal and went on to pursue further specialization in
+         physiotherapy at  Bhopal Hospital. Throughout my career, I have been driven by a passion
+          for providing high-quality patient care, staying abreast of the latest medical advancements, and fostering a patient-centered 
+          approach to healthcare.</p>
+      <a href="https://www.instagram.com/raushansingh245/" class="btn btn-primary">About Dr. R.A Singh</a>
+    </div>
+  </div>
+</div>
+</div>
+<br>
     <!-- footer part  -->
 <footer class="container-1" style="background-color: rgb(183, 189, 194); border-radius: 5px; padding-left: 10px;"> <br>
     <div class="row" style="padding-left: 10px;">
       <div class="col-sm-12 col-md-6">
         <h6><span class="ez-toc-section" id="About"></span>About<span class="ez-toc-section-end"></span></h6>
-        <p class="text-justify"> Welcome to Elite Care. This site is under Development by Nicky Ranjan. Thankyou so much fr visit us. </p>
+        <p class="text-justify"> Welcome to Elite Care. This site is under Development by Nicky Ranjan. Thankyou so much for visit us. </p>
       </div>
 
 
@@ -296,7 +461,7 @@
       <div class="col-xs-6 col-md-3">
         <h6><span class="ez-toc-section" id="Quick_Links"></span>Address<span class="ez-toc-section-end"></span></h6>
         <ul class="footer-links">
-          <li> Location :- Ghandhi Chock Mahua, Vaishali<br> Pincode - 123456 <br> Bihar, India. </li>
+          <li> Location :- Ghandhi Chock Mahua, Vaishali<br> Pincode - 844122 <br> Bihar, India. </li>
         </ul>
       </div>
 
